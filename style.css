@@ -7,6 +7,11 @@
 
 body{
     background-color: #222;
+    height: 100dvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* max-height: 1000px; */
 }
 
 .card{
@@ -14,7 +19,7 @@ body{
     max-width: 460px;
     background: linear-gradient(135deg, #00feba, #5b548a);
     color: #fff;
-    margin: 100px auto 0px;
+    margin: 0px auto 0px;
     border-radius: 20px;
     padding: 40px 35px;
     text-align: center;
